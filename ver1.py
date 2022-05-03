@@ -10,10 +10,9 @@ while True:
 
 print(total_dict)
 
-for k in total_dict: #왜 k가 key값만 출력되는것인지?
+for k in total_dict: 
     print(k)
     answer = input("답변을 입력해주세요 : ")
-    #{'질문1':'답변1','질문2':'답변2'} 저장
     total_dict[k] = answer
 
 print(total_dict)
