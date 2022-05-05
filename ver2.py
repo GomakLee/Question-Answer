@@ -8,8 +8,8 @@ while True:
         break
     else:
         dict['질문'] = question
+        print(dict)
         total_list.append(dict)
+        print(total_list)
 
 
-print(dict)
-print(total_list)
